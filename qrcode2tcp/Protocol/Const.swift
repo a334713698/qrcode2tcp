@@ -10,6 +10,8 @@ import Foundation
 typealias FlagType = UInt8
 typealias ProtocolStatus = UInt8
 
+let WINDOWS_SIZE: UInt8 = 50
+
 let Flag_FIN: FlagType = 1
 let Flag_SYN: FlagType = 1 << 1
 let Flag_ACK: FlagType = 1 << 4

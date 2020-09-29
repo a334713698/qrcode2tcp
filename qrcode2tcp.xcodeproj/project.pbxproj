@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		714D0B8625231D1C00E1EB79 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714D0B8525231D1C00E1EB79 /* Protocol.swift */; };
+		714D0B8A2523208000E1EB79 /* StreamTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714D0B892523208000E1EB79 /* StreamTool.swift */; };
+		714D0B90252330AE00E1EB79 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714D0B8F252330AE00E1EB79 /* Business.swift */; };
 		71CA47002521C75800ADA37F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CA46FF2521C75800ADA37F /* AppDelegate.swift */; };
 		71CA47022521C75800ADA37F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CA47012521C75800ADA37F /* SceneDelegate.swift */; };
 		71CA47042521C75800ADA37F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CA47032521C75800ADA37F /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		714D0B8525231D1C00E1EB79 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		714D0B892523208000E1EB79 /* StreamTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamTool.swift; sourceTree = "<group>"; };
+		714D0B8F252330AE00E1EB79 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		71CA46FC2521C75800ADA37F /* qrcode2tcp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrcode2tcp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CA46FF2521C75800ADA37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71CA47012521C75800ADA37F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		714D0B882523207900E1EB79 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				714D0B892523208000E1EB79 /* StreamTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		714D0B8E252330A700E1EB79 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				714D0B8F252330AE00E1EB79 /* Business.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
 		71CA46F32521C75800ADA37F = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +82,8 @@
 		71CA46FE2521C75800ADA37F /* qrcode2tcp */ = {
 			isa = PBXGroup;
 			children = (
+				714D0B882523207900E1EB79 /* Tool */,
+				714D0B8E252330A700E1EB79 /* Business */,
 				71CA47152521D01600ADA37F /* Protocol */,
 				71CA46FF2521C75800ADA37F /* AppDelegate.swift */,
 				71CA47012521C75800ADA37F /* SceneDelegate.swift */,
@@ -77,6 +101,7 @@
 			children = (
 				71CA47162521D02800ADA37F /* Const.swift */,
 				71CA471A2521D1F200ADA37F /* Packet.swift */,
+				714D0B8525231D1C00E1EB79 /* Protocol.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -153,9 +178,12 @@
 			files = (
 				71CA47042521C75800ADA37F /* ViewController.swift in Sources */,
 				71CA47172521D02800ADA37F /* Const.swift in Sources */,
+				714D0B8A2523208000E1EB79 /* StreamTool.swift in Sources */,
 				71CA471B2521D1F200ADA37F /* Packet.swift in Sources */,
+				714D0B90252330AE00E1EB79 /* Business.swift in Sources */,
 				71CA47002521C75800ADA37F /* AppDelegate.swift in Sources */,
 				71CA47022521C75800ADA37F /* SceneDelegate.swift in Sources */,
+				714D0B8625231D1C00E1EB79 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
